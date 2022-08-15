@@ -1,0 +1,22 @@
+nav {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+
+  a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    width: auto;
+    border-radius: 5px;
+    border: 1px grey solid;
+    padding: 5px;
+    margin: 3px;
+  }
+}
+.outlet {
+  height: calc(100vh - 40px);
+  padding: 10px 30px;
+}
