@@ -1,0 +1,16 @@
+ul {
+  padding-inline-start: 18px;
+}
+.li {
+  &.active {
+    text-decoration: none;
+  }
+  &.inactive {
+    text-decoration: line-through;
+  }
+}
+
+input {
+  width: 100px;
+  margin-right: 10px;
+}
